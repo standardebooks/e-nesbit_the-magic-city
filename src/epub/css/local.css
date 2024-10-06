@@ -66,3 +66,53 @@ p span.i2{
 	text-indent: -1em;
 }
 /* End of poetry styling */
+
+/* Letter styling */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
+/* End letter styling */
+
+#chapter-3 blockquote header{
+	margin-bottom: 0.5em;
+}
+
+#chapter-3 blockquote:first-of-type header p{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-3 ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 1em;
+}
+
+span.tiny-voice{
+	font-size: 0.75em;
+}
