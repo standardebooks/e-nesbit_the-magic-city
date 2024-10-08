@@ -94,7 +94,6 @@ footer{
 	text-align: initial;
 	text-indent: 0;
 }
-
 /* End letter styling */
 
 #chapter-3 blockquote header{
@@ -107,10 +106,10 @@ footer{
 	text-indent: 0;
 }
 
-#chapter-3 ul {
-    list-style-type: none; /* Removes bullet points */
-    padding: 0;
-    margin: 1em;
+#chapter-3 ul{
+	list-style-type: none; /* Removes bullet points */
+	margin: 1em;
+	padding: 0;
 }
 
 span.tiny-voice{
