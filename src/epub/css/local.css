@@ -98,21 +98,20 @@ footer{
 /* End letter styling */
 
 #chapter-3 blockquote header{
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
 #chapter-3 blockquote:first-of-type header p{
 	font-variant: small-caps;
 	text-align: center;
-	text-indent: 0;
 }
 
 #chapter-3 ul{
-	list-style-type: none; /* Removes bullet points */
+	list-style-type: none;
 	margin: 1em;
 	padding: 0;
 }
 
 span.tiny-voice{
-	font-size: 0.75em;
+	font-size: smaller;
 }
